@@ -1,13 +1,17 @@
-import "./style/header.scss";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from './pages/Home';
+import React from "react";
 
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        
-      </header>
+    <div>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={Home}/>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
