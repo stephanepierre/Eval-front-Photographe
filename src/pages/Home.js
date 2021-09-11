@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
 const home = () => {
@@ -10,6 +11,7 @@ const home = () => {
                         <h1>Charles Cantin - Photographe</h1>
                     </div>
                 </div>
+            <Footer/>
         </>
     )
 }
