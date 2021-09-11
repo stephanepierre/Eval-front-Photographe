@@ -7,7 +7,7 @@ const home = () => {
         <div className="home">
             <Navigation/>
             <div className='home-body'>
-                <h1>mon titre</h1>
+                <h1>Charles Cantin - Photographe</h1>
             </div>
         </div>
     )

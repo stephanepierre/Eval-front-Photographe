@@ -1,0 +1,13 @@
+.home{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-body{
+    h1{
+        font-weight: normal;
+        color: $colorTextHome;
+    }
+}
