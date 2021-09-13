@@ -1,0 +1,47 @@
+.portfolioPhotos{
+    color: $colorTextOther;
+
+    .photoNavigation{
+        @include verticalCenter;
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+
+          
+        
+        ul{
+            margin-top: 15rem;
+            display: flex;
+            font-size: map-get($fontSizeArray, for15px);
+
+            li{
+                display: block;
+            }
+          
+            input{
+            position: absolute;
+            opacity: 0;
+            }
+        
+            label{
+            cursor: pointer;
+            margin-left: 1rem;
+            }
+
+            label:hover{
+                color: $colorHover;
+            }
+
+        }
+        .projects{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            img{
+                max-height: 250px;
+                width: auto;
+                margin: 0.5rem;
+            }
+        }
+    }
+}
