@@ -1,0 +1,29 @@
+.contactPage{
+    @include centerPage;
+    color: $colorTextOther;
+    font-size: map-get($fontSizeArray, for15px);
+    .buttonForm{
+        background: transparent;
+        font-size: map-get($fontSizeArray, for15px);
+        color: $colorTextOther;
+        border: 1px solid $colorTextOther;
+        display: flex;
+        margin-top: 1rem;
+    }
+    .form-content{
+        width: 50%;
+        .formBox{
+            display: flex;
+            justify-content: space-between;
+            .formContent{
+                width: 75%;
+            }
+        }
+        .lastNameContent, 
+        .firstNameContent, 
+        .phoneContent, 
+        .emailContent{
+            margin-bottom: 1rem;
+        }
+    }
+}

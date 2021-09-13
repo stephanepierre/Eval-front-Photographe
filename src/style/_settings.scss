@@ -39,3 +39,8 @@ h1{
   align-items: center;
 }
 
+@mixin centerPage {
+  @include verticalCenter;
+  flex-direction: column;
+  height: 100vh;
+}

@@ -1,10 +1,6 @@
 .pricesPage{
+    @include centerPage;
     color: $colorTextOther;
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     ul{
         width: 50%;
         li{
