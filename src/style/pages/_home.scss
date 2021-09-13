@@ -1,8 +1,6 @@
 .home{
-    display: flex;
+    @include verticalCenter;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
     background-image: linear-gradient(10deg, $firstColor, transparent 120%),  url("../../media/kid-accueil.jpg");
     background-position: center;
 }

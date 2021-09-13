@@ -32,3 +32,10 @@ h1{
   font-weight: normal;
   margin-bottom: 5rem;
 }
+
+@mixin verticalCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
