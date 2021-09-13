@@ -1,0 +1,17 @@
+.pricesPage{
+    color: $colorTextOther;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ul{
+        width: 50%;
+        li{
+            display: block;
+            font-size: map-get($fontSizeArray, for15px);
+            text-decoration: none;
+            margin-bottom: 1rem;
+        }
+    }
+}

@@ -9,10 +9,11 @@ $colorTextOther: #707070;
       for30px: 3rem,
       for25px: 2.5rem,
       for20px: 2rem,
+      for15px: 1.5rem,
   );
 
-
-body{
+  //...........................common style......................................
+  body{
     font-family: 'Segoe UI', sans-serif;
     background: $firstColor;
     margin: 0;
@@ -24,4 +25,10 @@ body{
 h1{
     margin: 0;
     padding: 0;
+}
+
+.titlePage{
+  font-size: map-get($fontSizeArray, for25px);
+  font-weight: normal;
+  margin-bottom: 5rem;
 }
