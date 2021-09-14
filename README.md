@@ -75,3 +75,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### "react-router-dom": "^5.3.0"
 
 ### "node-sass": "^6.0.1"
+
+### "emailjs-com": "^3.2.0"
+
