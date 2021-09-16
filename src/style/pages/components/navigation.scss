@@ -27,6 +27,13 @@
     }
 
     a:hover{
-        color: red;
+        color: $colorHover;
     }
+
+    .active{
+        color: $colorActive;
+      }
+      
+
+   
 }
